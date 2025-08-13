@@ -127,6 +127,8 @@ sudo chmod +x /usr/local/bin/verifica_site.sh
 sudo touch /var/log/meu_script.log
 sudo chmod 664 /var/log/meu_script.log
 ```
+<img width="1279" height="332" alt="image" src="https://github.com/user-attachments/assets/52890c24-e6f8-4a58-99a8-84d22b2551ec" />
+
 ---
 
 ## Agendamento com cron
@@ -142,6 +144,9 @@ Verifique se está funcionando:
 ```bash
 crontab -l
 ```
+<img width="1187" height="633" alt="image2" src="https://github.com/user-attachments/assets/5418a373-8c87-4f66-b313-3475e1dffbfc" />
+<img width="1313" height="67" alt="image3" src="https://github.com/user-attachments/assets/37a252df-633d-4cff-a78a-890ccfc7db3f" />
+
 ---
 
 ## Configuração de Reínicio Automático no systemd
@@ -160,6 +165,8 @@ Recarregue e reinicie para aplicar alterações:
 sudo systemctl daemon-reexec
 sudo systemctl restart nginx
 ```
+<img width="1116" height="216" alt="image1" src="https://github.com/user-attachments/assets/1fe75551-d60e-4718-91e5-e36e8d0a371b" />
+
 ---
 ## Estrutura de Arquivos
 ```bash
